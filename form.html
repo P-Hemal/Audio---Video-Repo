@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+        legend h2{
+            border: 5px solid;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome To Nonajol Restaurant</h2>
+    <form>
+        <label for="">Your Name
+            <input type="text" placeholder="Your name">
+        </label>
+        <label for="">Your Email
+            <input type="text" placeholder="Your Email">
+        </label>
+        <label for="">Your Mobile
+            <input type="number" placeholder="Your Phone Number">
+        </label>
+        <fieldset>
+            <legend style="text-align: center;"><h2>Pick One item</h2></legend>
+            <label for="Fried rice">
+                <input type="radio" name="Item" id="Fried rice">
+                Fried rice
+                <label for="Biriyani"></label>
+                <input type="radio" name="Item" id="Biriyani">
+                Biriyani
+                <label for="Plain Rice"></label>
+                <input type="radio" name="Item" id="Plain Rice">
+                Plain Rice
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select One or More Items</legend>
+            <label for="">
+                <input type="checkbox" name="" id="chicken">
+                Chicken
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="Mutton">
+                Mutton
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="Beef">
+                Beef
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="Vegetable">
+                Vegetable
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
