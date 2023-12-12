@@ -1,0 +1,19 @@
+nav li{
+    display: inline;
+    margin right: 15px;
+    /* text-decoration: none; */
+    /* list-style:disc; */
+    padding:2px 3px;
+}
+
+nav li a{
+    text-decoration: none;
+    /* background-color:lightgray; */
+    color: black;
+    margin-right: 5px;
+}
+
+nav li:hover{
+    background-color: lightgray;
+    /* margin: 10px; */
+}
