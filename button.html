@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Tags</title>
+    <style>
+        nav li{
+            list-style: none;
+            /* display: inline; */
+            margin-right: 10px;
+            padding: 5px;
+        }
+        nav li a{
+            text-decoration: none;
+            color: black;
+        }
+        nav li:hover{
+         background-color: lightgray;   
+        }
+        nav > ul{
+            display: flex;
+        }
+        /* Nested menu */
+        nav li .dropdown{
+            display: none;
+        }
+        nav li:hover .dropdown{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Semantic.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="Table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="Semantic.html">Home</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="Table.html">Table</a></li> 
+                        <li><a href="Audio and video.html">Media</a></li>
+                    </ul>
+                </li> 
+                <li><a href="Audio and video.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
